@@ -1,0 +1,43 @@
+{
+  "name": "ar-realestate-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "zustand": "^4.4.1",
+    "axios": "^1.5.0",
+    "three": "^r156",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.88.0",
+    "@react-three/xr": "^5.8.0",
+    "react-leaflet": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "@headlessui/react": "^1.7.15",
+    "tailwindcss": "^3.3.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@types/three": "^r156",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.49.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "prettier": "^3.0.3"
+  }
+}
